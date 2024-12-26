@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+.footer-info::before{
+    content: '\b7  ';
+}
+
+/* ======================
+Special Message Section 
+=======================*/
+.spl-msg-sec{
+    background-color: black;
+    border-bottom: 1px solid #2a2a2a;
+}
+.msg{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+/* ======================
+Navbar Section
+======================= */
+.position-sticky{
+    top: 0;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+
+/*===================
+ Footer 
+ ===================*/
+footer{
+    background-color: black;
+}
+.footer-sec-one{
+    height: 300px;
+    align-content: center;
+}
+.links{
+    display: block;
+    color: gray;
+    font-size: 1.2em;
+}
+.footer-sec-two{
+    height: 150px;
+    align-content: center;
+}
+.footer-info{
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+}
+.link1{
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+}
+
+/*===================
+ Hover Effects 
+ ===================*/
+ .nav-link:hover{
+    text-decoration: underline;
+ }
+ .spl-msg-sec:hover{
+    background-color: #2a2a2a;
+ }
+ .links:hover{
+    color: white;
+ }
+ .footer-info:hover{
+    text-decoration: underline;
+    color: white;
+ }
+ .link1:hover{
+    text-decoration: underline;
+    color: white;
+ }
+
+ /*===================
+ Media Quary          
+ ===================*/
+ @media only screen and (max-width: 992px) {
+    .founder-text{
+        text-align: center;
+    }
+  }
